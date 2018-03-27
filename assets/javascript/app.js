@@ -4,7 +4,8 @@ $(document).ready(function () {
     'duck', 'deer', 'monkey', 'peacock', 'rabbit', 'cow', 'bull', 'pigeon', 
     'chicken', 'coyote', 'goat', 'stingray', 'sheep', 'zebra', 'mandrill',
     'jaguar', 'gorilla', 'goose', 'gorilla', 'kiwi', 'kingfisher',
-    'mandrill', 'macaw', 'moose', 'porcupine', 'poodle', 'puffin', 'robin', 'squirrel', 'magpie'
+    'mandrill', 'macaw', 'moose', 'porcupine', 'poodle', 'puffin', 'robin', 'squirrel', 'magpie',
+    'olm'
   ];
 
   const renderer = function () {
