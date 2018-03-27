@@ -8,6 +8,7 @@ body {
 .content {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: minmax(100px, auto);
   grid-gap: 10px;
   max-width: 960px;
   margin: 0 auto;
@@ -21,7 +22,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  margin-top: -100px;
   font-size: 20px;
 }
 
