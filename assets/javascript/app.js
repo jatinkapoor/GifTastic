@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  let animals = ['rat', 'cat', 'dog', 'lion', 'bear'];
+  let animals = ['elephant', 'cat', 'dog', 'lion', 'bear'];
 
   const renderer = function () {
 
@@ -26,6 +26,7 @@ $(document).ready(function () {
     let urlString = address + value + api_key
     // ajax call 
     $.ajax(url = urlString, method = 'GET').then(function (response) {
+      console.log(response);
       for (let i = 0; i < 10; i++) {
         $('#gif-loc').append(`<p>Rating: ${(response.data[i].rating).toUpperCase()} <br><br> <img class="gif" data-gif_src="${response.data[i].images.downsized_medium.url}" src="${response.data[i].images.downsized_still.url}" alt=""></p>`);
       }
