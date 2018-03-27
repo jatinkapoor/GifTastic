@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-  let animals = ['elephant', 'cat', 'dog', 'lion', 'bear'];
+  let animals = ['elephant', 'cat', 'dog', 'lion', 'bear', 'horse', 'beaver',
+   'duck', 'deer', 'monkey', 'peacock'];
 
   const renderer = function () {
 
